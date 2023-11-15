@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MERGING SORTED INTERGER</h1>
+</body>
+
+<script>
+    //Merge two sorted arrays into one
+
+function mergeArrays(arr1, arr2) {
+  var results = arr1.concat(arr2)
+  results = new Set(results)
+  results = Array.from(results)
+  return results.sort((num1, num2) => num1 - num2)
+}
+
+</script>
+</html>
