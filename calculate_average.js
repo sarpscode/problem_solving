@@ -2,7 +2,7 @@
 
 function findAverage(array) {
     // your code here
-    if(array = 0){
+    if(array == 0){
       return 0
     }
     
