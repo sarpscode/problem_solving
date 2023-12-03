@@ -12,3 +12,14 @@ function squareSum(numbers){
 
     return addElements
   }
+
+  /* function squareSum(numbers){
+  sum = 0
+    for (number of numbers) {
+      squared = number ** 2
+      sum = sum + squared
+    }
+
+    return sum
+}
+*/

@@ -26,3 +26,13 @@ function mergeArrays(a, b) {
      console.log(sort_results)
      
   }
+
+  /*  function mergeArrays(a, b) {
+    // your code here
+  let  results = []
+  let sumA_B = a.concat(b)
+  results = new Set(sumA_B)
+  results = Array.from(results)
+
+  return results.sort((a, b) => a - b)
+}*/
